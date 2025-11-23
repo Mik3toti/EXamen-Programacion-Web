@@ -1,0 +1,41 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+.button-ejercicios {
+  display: flex;
+  gap: 25px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 150px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  border-radius: 4px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+
+.button.b1 {
+  background-color: #F934BB;
+}
+
+.button.b2 {
+  background-color: #9CF906;
+}
+
+.button:hover {
+  filter: brightness(0.9);
+}
